@@ -1,0 +1,125 @@
+* {
+    padding: 3;
+    margin: 1;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(my.jpg) ;
+    background-size: cover;
+ background-position: center;
+    border: solid;
+    border-width: 1cm;
+    margin-bottom: 1cm;
+    border-spacing: 1cm;
+    border-color: rgba(221, 185, 141);
+   height: 25cm;
+    font-weight: bolder;
+
+}
+
+
+.head {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#000080;
+    margin-left: 2cm;
+}
+
+.marq {
+
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+.menu ul li {
+    width: 120px;
+    margin:10px 50px;
+   
+}
+
+.menu ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(236, 221, 221);
+    display: block;
+    height: 40px;
+    width: 160px;
+    background: linear-gradient(#2655bc,
+            #342879);
+    place-items: center;
+    font-weight: 550;
+    padding-left: 1px;
+
+}
+
+.in,
+.menu ul li a:hover {
+    background: rgb(44, 41, 41);
+    border-radius: 3px;
+}
+
+.menu .glyphicon {
+    margin-right: 6px;
+}
+
+/* .ex { 
+    
+    font-weight: 600;
+    opacity: 2;
+    padding: 2px 1cm;
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+    padding-bottom: 10px;
+/* } */
+
+.exams{
+    align-items: center;
+}
+
+.exams ul{
+    display: inline-table;
+    list-style: none;
+}
+.exams ul li {
+    width: 2cm;
+    margin: 5px;
+    margin-bottom: 1cm;
+}
+
+.exams ul li a {
+    color: rgb(236, 221, 221);
+    /* align-items: center; */
+    text-align: center;
+    font-size: x-large;
+    display: grid;
+    height: 40px;
+    width: 160px;
+    background: linear-gradient(#2655bc,
+            #342879);
+    place-items: center;
+    font-weight: 550;
+    
+}
+
+.out,
+.exams ul li a:hover {
+    background: rgb(44, 41, 41);
+
+}
